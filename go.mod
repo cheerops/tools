@@ -1,4 +1,4 @@
-module gitlab.aswangc.cn/dataant/tools
+module github.com/cheerops/tools
 
 go 1.18
 
