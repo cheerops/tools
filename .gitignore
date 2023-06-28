@@ -1,0 +1,12 @@
+test/gateway_test.go
+test/jwt_test.go
+test/lic_test.go
+test/log_test.go
+test/config/dev/gateway.yaml
+test/config/dev/logger.yaml
+test/config/dev/mysql.yaml
+test/config/dev/redis.yaml
+test/config/prod/gateway.yaml
+test/config/prod/logger.yaml
+test/config/prod/mysql.yaml
+test/config/prod/redis.yaml
