@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/cheerops/tools/utils"
 	"github.com/golang-jwt/jwt/v4"
-	"gitlab.aswangc.cn/dataant/tools/utils"
 )
 
 const (

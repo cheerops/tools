@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"gitlab.aswangc.cn/dataant/tools/components/config"
-	"gitlab.aswangc.cn/dataant/tools/components/logger"
+	"github.com/cheerops/tools/components/config"
+	"github.com/cheerops/tools/components/logger"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	lumberjack "gopkg.in/natefinch/lumberjack.v2"

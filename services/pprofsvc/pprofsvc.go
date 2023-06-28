@@ -5,7 +5,7 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"gitlab.aswangc.cn/dataant/tools/utils"
+	"github.com/cheerops/tools/utils"
 )
 
 type PprofSvc struct {

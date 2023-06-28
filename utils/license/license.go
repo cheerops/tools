@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/cheerops/tools/utils"
+	"github.com/cheerops/tools/utils/encryption"
 	"github.com/go-redis/redis/v8"
-	"gitlab.aswangc.cn/dataant/tools/utils"
-	"gitlab.aswangc.cn/dataant/tools/utils/encryption"
 )
 
 const (

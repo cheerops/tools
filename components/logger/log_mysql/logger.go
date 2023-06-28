@@ -5,18 +5,20 @@ import (
 	"fmt"
 	"os"
 
-	"gitlab.aswangc.cn/dataant/tools/components/config"
-	"gitlab.aswangc.cn/dataant/tools/components/database/mysqlconn"
-	"gitlab.aswangc.cn/dataant/tools/components/logger"
+	"github.com/cheerops/tools/components/config"
+	"github.com/cheerops/tools/components/database/mysqlconn"
+	"github.com/cheerops/tools/components/logger"
 )
 
 // CREATE TABLE `t_logger` (
-//   `id` int(11) NOT NULL AUTO_INCREMENT,
-//   `app_name` varchar(100) NOT NULL COMMENT '项目名称',
-//   `level` varchar(100) NOT NULL COMMENT '日志等级',
-//   `msg` varchar(1024) DEFAULT NULL,
-//   `created_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-//   PRIMARY KEY (`id`)
+//
+//	`id` int(11) NOT NULL AUTO_INCREMENT,
+//	`app_name` varchar(100) NOT NULL COMMENT '项目名称',
+//	`level` varchar(100) NOT NULL COMMENT '日志等级',
+//	`msg` varchar(1024) DEFAULT NULL,
+//	`created_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+//	PRIMARY KEY (`id`)
+//
 // ) ENGINE=InnoDB AUTO_INCREMENT=3001 DEFAULT CHARSET=latin1 COMMENT='日志记录表';
 type MysqlLogger struct {
 	Level string `gorm:"level"`

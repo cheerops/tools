@@ -7,8 +7,8 @@ import (
 	"os"
 	"sync"
 
-	"gitlab.aswangc.cn/dataant/tools/components"
-	"gitlab.aswangc.cn/dataant/tools/services"
+	"github.com/cheerops/tools/components"
+	"github.com/cheerops/tools/services"
 )
 
 type Register struct {

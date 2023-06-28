@@ -6,10 +6,10 @@ import (
 	"io"
 	"time"
 
+	"github.com/cheerops/tools/components/logger"
 	"github.com/gin-gonic/gin"
-	"gitlab.aswangc.cn/dataant/tools/components/logger"
 
-	"gitlab.aswangc.cn/dataant/tools/utils"
+	"github.com/cheerops/tools/utils"
 )
 
 func RequestInLog(c *gin.Context) {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"runtime/debug"
 
+	"github.com/cheerops/tools/res"
+	"github.com/cheerops/tools/utils"
 	"github.com/gin-gonic/gin"
-	"gitlab.aswangc.cn/dataant/tools/res"
-	"gitlab.aswangc.cn/dataant/tools/utils"
 )
 
 func Recovery() gin.HandlerFunc {

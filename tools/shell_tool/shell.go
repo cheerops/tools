@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/cheerops/tools/utils"
 	"github.com/pkg/sftp"
-	"gitlab.aswangc.cn/dataant/tools/utils"
 	"golang.org/x/crypto/ssh"
 )
 

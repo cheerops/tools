@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"gitlab.aswangc.cn/dataant/tools/components/config"
-	"gitlab.aswangc.cn/dataant/tools/utils"
+	"github.com/cheerops/tools/components/config"
+	"github.com/cheerops/tools/utils"
 
-	httptool "gitlab.aswangc.cn/dataant/tools/tools/http_tool"
+	httptool "github.com/cheerops/tools/tools/http_tool"
 )
 
 /*

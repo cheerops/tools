@@ -1,8 +1,8 @@
 package middleware
 
 import (
+	"github.com/cheerops/tools/res"
 	"github.com/gin-gonic/gin"
-	"gitlab.aswangc.cn/dataant/tools/res"
 )
 
 func RequestJsonParamHandler[T interface{}](c *gin.Context) (T, bool) {

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.aswangc.cn/dataant/tools/components/logger"
+	"github.com/cheerops/tools/components/logger"
 )
 
 func HttpGET(traceId, urlString string, urlParams url.Values, msTimeout int, header http.Header) (*http.Response, []byte, error) {

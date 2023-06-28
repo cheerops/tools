@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"gitlab.aswangc.cn/dataant/tools/components/config"
+	"github.com/cheerops/tools/components/config"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

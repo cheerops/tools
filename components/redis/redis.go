@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
+	"github.com/cheerops/tools/components/config"
 	gredis "github.com/go-redis/redis/v8"
-	"gitlab.aswangc.cn/dataant/tools/components/config"
 )
 
 var Rdc *gredis.ClusterClient
@@ -17,6 +17,7 @@ var Rdc *gredis.ClusterClient
 //   - localhost:7003
 //   - localhost:7004
 //   - localhost:7005
+//
 // passwd: "1234567890"
 // pool_size: 10
 // pool_timeout: 3
